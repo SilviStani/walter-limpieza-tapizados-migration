@@ -1,0 +1,18 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-geist-sans);
+}
+
+/* Tablet styles */
+@mixin Tablet {
+  @media screen and (max-width: 769px) and (min-width: 426px) {}
+}
+
+/* Mobile styles */
+@mixin mobile {
+  @media screen and (max-width: 426px) {}
+}
