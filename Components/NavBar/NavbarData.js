@@ -2,6 +2,14 @@ let numId = 0;
 export const NavbarData = [
     {
         id: numId++,
+        title: "Inicio",
+        subtitle: "",
+        url: "/",
+        src: "",
+        target: "_blank"
+    },
+    {
+        id: numId++,
         title: "Presupuesto",
         subtitle: "",
         url: "https://wa.me/5493425972698/?text=Estoy%20interesado%20en%20su%20servicio",
