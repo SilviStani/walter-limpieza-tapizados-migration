@@ -9,6 +9,14 @@ const Hero = () => {
         <h1 className='Title'>Limpieza y Desinfección de Tapizados</h1>
         <p className='Desc'>Sillones, Sofás, Automoviles, Cortinados, Colchones, Alfombras, Limpieza en Seco.
           <br />Santa Fé, Argentina</p>
+        <div className="buttonsMobileContainer">
+          <Link href="https://wa.me/5493425972698/?text=Estoy%20interesado%20en%20su%20servicio" target='_blank'>
+            <button className="buttonsMobile">Pida su <br /> Presupuesto</button>
+          </Link>
+          <Link href="#trabajamos">
+            <button className="buttonInvertMobile">Nuestro<br />Servicio</button>
+          </Link>
+        </div>
       </div>
       <div className='rightContainer'>
         <Link href="https://wa.me/5493425972698/?text=Estoy%20interesado%20en%20su%20servicio" target='_blank'>

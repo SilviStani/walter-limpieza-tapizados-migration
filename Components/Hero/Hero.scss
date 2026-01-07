@@ -3,7 +3,15 @@
     height: calc(85vh + 15vh);
     display: flex;
 
-    
+    @media screen and (max-width: 770px) {
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-image: url("/wal_limpieza.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     .TextContainer {
         height: 100%;
         width: 35%;
@@ -12,13 +20,13 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        /* eliminar esto */
-        @media screen and (max-width: 427px) {
-            display: none;
-        }
 
         @media screen and (max-width: 770px) {
-            margin-right: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.3);
+            align-items: center;
+            justify-content: space-around;
         }
 
         .Title {
@@ -28,10 +36,10 @@
             color: teal;
 
             @media screen and (max-width: 770px) {
-                font-size: 30px;
+                font-size: 25px;
                 width: 100%;
-                margin-bottom: 40vh;
                 text-align: center;
+                color: rgb(2, 83, 83);
             }
         }
 
@@ -42,9 +50,47 @@
             @media screen and (max-width: 770px) {
                 text-align: center;
                 padding: 10px;
-                background-color: rgba(255, 255, 255, 0.737);
                 width: 100%;
                 font-size: 18px;
+                background-color: rgba(255, 255, 255, 0.8);
+            }
+        }
+
+        .buttonsMobileContainer {
+            display: none;
+
+            .buttonsMobile {
+                background-color: teal;
+                color: white;
+                border: 3px solid teal;
+            }
+
+            .buttonInvertMobile {
+                background-color: white;
+                color: teal;
+                border: 3px solid teal;
+            }
+
+            .buttonInvertMobile,
+            .buttonsMobile {
+                @media screen and (max-width: 770px) {
+                    border: none;
+                    width: 12rem;
+                    height: 5rem;
+                    border-radius: 10px;
+                    margin: 10px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    font-size: 15px;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                }
+            }
+
+            @media screen and (max-width: 770px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
             }
         }
     }
@@ -90,10 +136,10 @@
             border: 3px solid teal;
 
         }
+
+        @media screen and (max-width: 770px) {
+            display: none;
+        }
     }
 
-    @media screen and (max-width: 770px) {
-        display: flex;
-        flex-direction: column;
-    }
 }

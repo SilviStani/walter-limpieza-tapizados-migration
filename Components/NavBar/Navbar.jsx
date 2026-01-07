@@ -24,7 +24,7 @@ const Navbar = () => {
           onClick={() => setOpen(!open)}
         >
          <Image 
-         src="/menu.png" 
+         src="/hamburguer_menu.png" 
          alt="Menu" 
          width={30} 
          height={30}
