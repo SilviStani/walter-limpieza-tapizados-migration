@@ -3,7 +3,15 @@ import "./Process.scss"
 
 const Process = () => {
   return (
-    <div className='ProcessWrapper'>Process</div>
+    <div
+      id="trabajamos"
+      className='ProcessWrapper'>
+        <h1 className='WorksTitle'>Nuestro Proceso de Trabajo
+          <br/>
+          <p className='WorksDescription'>Aqui te lo Explicamos</p>
+        </h1>
+        <h1 className='WorksTitleMobile'>Proceso</h1>
+    </div>
   )
 }
 

@@ -5,6 +5,7 @@ import Process from "../../Components/Process/Process";
 import Navbar from "../../Components/NavBar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Works from "../../Components/Works/Works";
+import { ProcessDesc } from "../../Components/Process/ProcessDesc";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Works />
       <Process />
+      <ProcessDesc/>
       <Footer />
     </div>
   );

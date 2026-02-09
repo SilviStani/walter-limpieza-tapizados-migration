@@ -73,4 +73,95 @@
     span {
         margin-bottom: 2rem;
     }
+
+    /* Modal Styles */
+    .ModalOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .ModalContent {
+        position: relative;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        max-height: 90vh;
+        max-width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: slideIn 0.3s ease;
+
+        @media screen and (max-width: 426px) {
+            padding: 15px;
+            max-width: 95vw;
+        }
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: scale(0.8);
+            opacity: 0;
+        }
+        to {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    .CloseButton {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background-color: teal;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+        z-index: 1001;
+
+        &:hover {
+            background-color: #008080;
+            transform: scale(1.1);
+        }
+
+        @media screen and (max-width: 426px) {
+            width: 35px;
+            height: 35px;
+            font-size: 20px;
+        }
+    }
+
+    .ModalImage {
+        object-fit: contain;
+        max-height: 80vh;
+        max-width: 80vw;
+        border-radius: 5px;
+    }
 }

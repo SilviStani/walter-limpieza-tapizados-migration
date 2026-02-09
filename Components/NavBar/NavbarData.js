@@ -6,7 +6,7 @@ export const NavbarData = [
         subtitle: "",
         url: "/",
         src: "",
-        target: "_blank"
+        target: ""
     },
     {
         id: numId++,
@@ -22,7 +22,7 @@ export const NavbarData = [
         subtitle: "",
         url: "/galeria",
         src: "",
-        target: "_itself"
+        target: ""
     },
     {
         id: numId++,
@@ -30,7 +30,7 @@ export const NavbarData = [
         subtitle: "",
         url: "#trabajamos",
         src: "",
-        target: "_itself"
+        target: ""
     },
     {
         id: numId++,

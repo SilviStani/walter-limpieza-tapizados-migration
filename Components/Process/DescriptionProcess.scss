@@ -1,0 +1,38 @@
+span {
+    height: 2rem;
+    width: 100%;
+}
+
+.DescriptionWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+    .DescriptionContainer {
+        margin: 1rem;
+        padding: 2rem;
+        border-radius: 20px;
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .textWrapper {
+            border-radius: 10px 0 15px 0;
+            padding: 3px;
+            background-color: rgba(255, 255, 255, 0.612);
+            .DescriptionTitle{
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+            .DescriptionParagraph {
+                font-size: 1rem;
+            }
+        }
+    }
+}
