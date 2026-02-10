@@ -36,6 +36,7 @@ export const ProcessDesc = () => {
                     ))
                 }
             </div>
+            <span></span>
         </>
     )
 }
