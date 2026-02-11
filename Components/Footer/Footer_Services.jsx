@@ -7,7 +7,7 @@ export const FooterServices = () => {
         <div className='Presentation'>
             <h3>Servicios</h3>
             <Image
-                src="/logo.png"
+                src="/Logo.png"
                 alt="Logo"
                 height={100}
                 width={100}

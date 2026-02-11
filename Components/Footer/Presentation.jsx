@@ -7,7 +7,7 @@ const Presentation = () => {
         <div className='Presentation'>
             <h3>Walter Tapizados</h3>
             <Image
-                src="/logo-blanco.png"
+                src="/Logo-blanco.png"
                 alt="Logo"
                 height={80}
                 width={80}
