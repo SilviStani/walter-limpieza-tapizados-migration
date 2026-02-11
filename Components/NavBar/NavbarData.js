@@ -16,6 +16,7 @@ export const NavbarData = [
         src: "",
         target: "_blank"
     },
+    /*
     {
         id: numId++,
         title: "Galeria",
@@ -24,6 +25,7 @@ export const NavbarData = [
         src: "",
         target: ""
     },
+    */
     {
         id: numId++,
         title: "Como Trabajamos",
