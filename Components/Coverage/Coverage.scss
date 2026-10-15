@@ -1,0 +1,17 @@
+.coverage { padding-block: 0 72px; }
+.coverage-layout { border-top: 1px solid var(--line); padding-top: 48px; display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+.coverage-intro > p:not(.eyebrow) { max-width: 430px; margin-top: 18px; color: var(--muted); font-size: 14px; line-height: 1.8; }
+.coverage-inquiry { margin-top: 22px;
+  p { font-size: 13px; color: var(--muted); }
+}
+.coverage-areas { border-left: 1px solid var(--line); padding-left: 40px; }
+.coverage-list-label { font-size: 10px; font-weight: 600; letter-spacing: .12em; color: var(--muted); margin-bottom: 16px; }
+.coverage-list { display: grid; gap: 12px; list-style: none; padding: 0; margin: 0;
+  li { display: flex; align-items: start; gap: 12px; font-size: 14px; }
+  .icon { width: 17px; height: 17px; margin-top: 3px; color: var(--teal); }
+}
+@media (max-width: 700px) {
+  .coverage { padding-bottom: 48px; }
+  .coverage-layout { grid-template-columns: 1fr; gap: 24px; padding-top: 36px; }
+  .coverage-areas { border: 0; padding: 0; gap: 20px; }
+}

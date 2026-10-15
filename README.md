@@ -1,5 +1,24 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Portada al compartir enlaces
+
+La portada está en `src/app/opengraph-image.png` (1200 × 630). Next.js publica
+la imagen e incorpora sus metadatos Open Graph automáticamente. La misma imagen
+se utiliza para las tarjetas grandes de Twitter/X.
+
+Para regenerarla con el logo, la imagen y los colores del sitio:
+
+```bash
+node scripts/generate-social-image.mjs
+```
+
+Los metadatos apuntan al dominio público `https://walter-limpieza-tapizados.digital/`.
+Si cambia el dominio, configurá `NEXT_PUBLIC_SITE_URL` con la nueva URL completa
+antes de compilar, o actualizá el valor predeterminado en `src/app/layout.js`.
+
+La vista previa en WhatsApp requiere un despliegue público accesible: no puede
+leer la web que se ejecuta solamente en tu computadora.
+
 ## Getting Started
 
 First, run the development server:

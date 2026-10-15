@@ -10,6 +10,7 @@ const links = [
   ["Servicios", "#servicios"],
   ["Resultados", "#resultados"],
   ["Cómo trabajamos", "#trabajamos"],
+  ["Zonas", "#zonas"],
 ];
 
 export default function Navbar() {
@@ -53,6 +54,8 @@ export default function Navbar() {
       <nav id="mobile-menu" className="mobile-menu" aria-label="Navegación móvil" hidden={!open}>
         <div className="container">
           {links.map(([label, href]) => <a key={href} href={href} onClick={() => setOpen(false)}>{label}<Icon name="arrow" /></a>)}
+          <a href="#presupuesto" onClick={() => setOpen(false)}>Pedir presupuesto<Icon name="arrow" /></a>
+          <a href="#preguntas" onClick={() => setOpen(false)}>Preguntas frecuentes<Icon name="arrow" /></a>
           <a href="#contacto" onClick={() => setOpen(false)}>Contacto<Icon name="arrow" /></a>
         </div>
       </nav>

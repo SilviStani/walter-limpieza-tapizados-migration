@@ -1,0 +1,60 @@
+.quote { background: var(--tint); }
+.quote-layout { display: grid; grid-template-columns: .9fr 1.1fr; align-items: start; gap: 72px; }
+.quote-intro { padding-top: 16px; }
+.quote-description { max-width: 380px; margin-top: 22px; color: var(--muted); font-size: 15px; line-height: 1.8; }
+.quote-guide { display: grid; gap: 24px; padding: 0; margin: 32px 0; list-style: none;
+  li { display: flex; align-items: start; gap: 18px; }
+  li > span { display: grid; place-items: center; width: 34px; height: 34px; flex-shrink: 0; border: 1px solid #bdcfc4; border-radius: 50%; color: var(--teal); font-size: 11px; font-weight: 600; }
+  strong { font-size: 14px; font-weight: 600; }
+  p { margin-top: 4px; max-width: 300px; font-size: 13px; color: var(--muted); }
+}
+.quote-form { min-width: 0; padding: 32px; border: 1px solid var(--line); border-radius: 16px; background: var(--paper); }
+.quote-services { min-width: 0; padding: 0; margin: 0 0 24px; border: 0;
+  legend { padding: 0; margin-bottom: 14px; font-size: 15px; font-weight: 600; }
+}
+.quote-service-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.quote-service-option { position: relative; cursor: pointer;
+  input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+  > span { display: flex; align-items: center; gap: 9px; height: 100%; min-height: 64px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; color: var(--muted); font-size: 12px; background: white; }
+  .icon { width: 22px; height: 22px; color: var(--teal); }
+  .selection-check { width: 14px; height: 14px; margin-left: auto; opacity: 0; }
+  input:checked + span { background: var(--tint); border-color: var(--teal); color: var(--teal-dark); box-shadow: inset 0 0 0 1px var(--teal); }
+  input:checked + span .selection-check { opacity: 1; }
+  input:focus-visible + span { outline: 3px solid #a65b22; outline-offset: 3px; }
+  &:hover > span { border-color: var(--teal); }
+}
+.quote-fields { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 16px; margin-bottom: 22px; }
+.quote-field { min-width: 0;
+  label { display: block; margin-bottom: 8px; font-size: 13px; font-weight: 600; }
+  label span { font-size: 11px; font-weight: 400; color: var(--muted); margin-left: 6px; }
+  input, textarea { display: block; width: 100%; min-width: 0; border: 1px solid #bdccc4; border-radius: 7px; padding: 12px; background: white; color: var(--ink); font: inherit; font-size: 16px; line-height: 1.5; }
+  textarea { resize: vertical; min-height: 100px; }
+  input::placeholder, textarea::placeholder { color: #687872; font-size: 13px; opacity: 1; }
+  small { display: block; margin-top: 7px; font-size: 11px; line-height: 1.5; color: var(--muted); }
+}
+.quote-photo-note { display: flex; align-items: center; gap: 10px; margin-block: 20px; color: var(--muted); font-size: 12px; }
+.quote-submit { width: 100%; }
+.quote-send-note { text-align: center; color: var(--muted); font-size: 11px; margin-top: 12px; }
+@media (max-width: 1000px) {
+  .quote-layout { gap: 32px; grid-template-columns: .8fr 1.2fr; }
+  .quote-form { padding: 24px; }
+  .quote-service-option > span { padding: 10px; gap: 7px; }
+}
+@media (max-width: 800px) {
+  .quote-layout { grid-template-columns: 1fr; gap: 28px; }
+  .quote-intro { padding-top: 0; }
+  .quote-description { max-width: 100%; }
+  .quote-guide { margin-block: 24px 16px; gap: 18px; p { max-width: 100%; } }
+}
+@media (max-width: 700px) {
+  .quote-guide { display: none; }
+  .quote-intro > .text-link { margin-top: 14px; }
+}
+@media (max-width: 420px) {
+  .quote-form { padding: 20px 16px; }
+  .quote-service-options { gap: 8px; }
+  .quote-service-option > span { flex-wrap: wrap; gap: 6px; font-size: 11px; }
+  .quote-service-option .selection-check { position: absolute; right: 8px; top: 8px; }
+  .quote-fields { grid-template-columns: 1fr; gap: 18px; }
+  .quote-submit { padding-inline: 10px; gap: 8px; font-size: 13px; }
+}

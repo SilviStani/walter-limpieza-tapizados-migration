@@ -17,7 +17,7 @@ export default function Footer() {
         </div>
         <div className="footer-row">
           <div><a className="footer-brand" href="#inicio">Walter<span> Limpieza de tapizados</span></a><p>Cuidamos tus muebles a conciencia.</p></div>
-          <nav aria-label="Enlaces del pie de página"><a href="#servicios">Servicios</a><a href="#resultados">Resultados</a><a href={business.instagram} target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></nav>
+          <nav aria-label="Enlaces del pie de página"><a href="#servicios">Servicios</a><a href="#zonas">Zonas</a><a href="#preguntas">Preguntas frecuentes</a><a href={business.instagram} target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a></nav>
         </div>
       </div>
     </footer>

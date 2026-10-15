@@ -11,6 +11,9 @@ const paths = {
   close: <path d="m6 6 12 12M6 18 18 6" />,
   menu: <path d="M4 7h16M4 12h16M4 17h16" />,
   expand: <path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5" />,
+  plus: <path d="M12 5v14M5 12h14" />,
+  rug: <><path d="M5 5h14v14H5zM8 8h8v8H8zM5 2v3m4-3v3m6-3v3m4-3v3M5 19v3m4-3v3m6-3v3m4-3v3" /></>,
+  camera: <><path d="m8 5 2-2h4l2 2h5v15H3V5Z" /><circle cx="12" cy="12" r="4" /></>,
 };
 
 export default function Icon({ name, className = "" }) {

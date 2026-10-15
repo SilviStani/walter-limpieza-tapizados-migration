@@ -6,7 +6,10 @@ import Navbar from "../../Components/NavBar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Works from "../../Components/Works/Works";
 import { Bottom } from "../../Components/Bottom/Bottom";
-import WhatsAppLink from "../../Components/UI/WhatsAppLink";
+import Icon from "../../Components/UI/Icon";
+import Quote from "../../Components/Quote/Quote";
+import Coverage from "../../Components/Coverage/Coverage";
+import FAQ from "../../Components/FAQ/FAQ";
 
 export default function Home() {
   return (
@@ -18,10 +21,13 @@ export default function Home() {
         <Services />
         <Works />
         <Process />
+        <Coverage />
+        <Quote />
+        <FAQ />
       </main>
       <Footer />
       <Bottom />
-      <div className="mobile-contact"><WhatsAppLink>Pedir presupuesto</WhatsAppLink></div>
+      <div className="mobile-contact"><a className="button button-primary" href="#presupuesto"><Icon name="chat" />Pedir presupuesto<Icon name="arrow" /></a></div>
     </div>
   );
 }

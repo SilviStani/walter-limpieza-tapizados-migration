@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Icon from "../UI/Icon";
-import WhatsAppLink from "../UI/WhatsAppLink";
 import "./Hero.scss";
 
 export default function Hero() {
@@ -12,7 +11,7 @@ export default function Hero() {
           <h1 id="hero-title">Volvé a disfrutar<br />de tus <em>tapizados.</em></h1>
           <p className="hero-description">Limpieza profesional a domicilio para tus sillones, colchones y tapizados. Cuidamos tus muebles a conciencia.</p>
           <div className="hero-actions">
-            <WhatsAppLink />
+            <a className="button button-primary" href="#presupuesto"><Icon name="chat" />Pedir presupuesto<Icon name="arrow" /></a>
             <a className="text-link" href="#resultados">Ver resultados<Icon name="arrow" /></a>
           </div>
           <p className="hero-note">Mandanos una foto y tu zona por WhatsApp.<br />Te orientamos sobre el servicio que necesitás.</p>
