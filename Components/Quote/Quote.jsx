@@ -30,6 +30,10 @@ export default function Quote() {
     }
     const message = quoteMessage({ service, quantity, zone, details });
     window.open(whatsappMessageUrl(message), "_blank", "noopener,noreferrer");
+    setService("");
+    setQuantity("1");
+    setZone("");
+    setDetails("");
   }
 
   return (
