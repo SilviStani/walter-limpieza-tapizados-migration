@@ -1,0 +1,20 @@
+.service-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.service-card { display: flex; flex-direction: column; padding: 26px 24px 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; transition: border-color .2s, background .2s;
+  &:hover { background: var(--tint); border-color: var(--teal); }
+  h3 { font-size: 18px; letter-spacing: -.035em; font-weight: 600; margin-bottom: 10px; }
+  p { font-size: 13px; color: var(--muted); line-height: 1.7; }
+}
+.service-top { display: flex; justify-content: space-between; align-items: start; margin-bottom: 32px; color: var(--teal);
+  .icon { width: 32px; height: 32px; }
+  span { font-size: 11px; color: var(--muted); }
+}
+.service-link { display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 24px; color: var(--teal); font-size: 13px; font-weight: 600; }
+.services-extra { margin-top: 24px; font-size: 13px; color: var(--muted); text-align: center;
+  a { display: inline-block; padding-block: 8px; color: var(--teal); text-decoration: underline; text-underline-offset: 4px; font-weight: 500; }
+}
+@media (max-width: 1000px) { .service-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 420px) {
+  .service-grid { gap: 10px; }
+  .service-card { padding: 18px 14px; h3 { font-size: 16px; } p { font-size: 12px; } }
+  .service-top { margin-bottom: 22px; }
+}

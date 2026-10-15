@@ -1,167 +1,27 @@
-.WorksWrapper {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    @media screen and (max-width: 769px) and (min-width: 427px) {
-        height: 80vh;
-    }
-    
-    @media screen and (max-width: 427px) {
-        height: 100%;
-    }
-
-    .WorksTitle {
-        margin-top: 2rem;
-        font-size: 2rem;
-        color: teal;
-        font-weight: 600;
-
-        @media screen and (max-width: 769px) and (min-width: 427px) {
-            font-size: 1.3rem;
-        }
-        
-        @media screen and (max-width: 426px) {
-            margin-top: 0.5rem;
-            font-size: 1.2rem;
-        }
-
-    }
-
-    .PhotoContainer {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        justify-content: space-around;
-        height: 100%;
-        width: 100%;
-
-        @media screen and (max-width: 426px) {
-            flex-direction: column;
-        }
-
-        .PhotoItem {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-
-            @media screen and (max-width: 426px) {
-                margin-top: 5%;
-            }
-
-            .WorkImage {
-                object-fit: cover;
-                border-radius: 10px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-                @media screen and (max-width: 769px) {
-                    height: 200px;
-                    width: 200px;
-                }
-            }
-
-            &:hover .WorkImage {
-                transform: scale(1.05);
-                transition: transform 0.3s ease;
-            }
-        }
-    }
-    span {
-        margin-bottom: 2rem;
-    }
-
-    /* Modal Styles */
-    .ModalOverlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.8);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 1000;
-        animation: fadeIn 0.3s ease;
-    }
-
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-    }
-
-    .ModalContent {
-        position: relative;
-        background-color: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-        max-height: 90vh;
-        max-width: 90vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        animation: slideIn 0.3s ease;
-
-        @media screen and (max-width: 426px) {
-            padding: 15px;
-            max-width: 95vw;
-        }
-    }
-
-    @keyframes slideIn {
-        from {
-            transform: scale(0.8);
-            opacity: 0;
-        }
-        to {
-            transform: scale(1);
-            opacity: 1;
-        }
-    }
-
-    .CloseButton {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        background-color: teal;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        font-size: 24px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all 0.3s ease;
-        z-index: 1001;
-
-        &:hover {
-            background-color: #008080;
-            transform: scale(1.1);
-        }
-
-        @media screen and (max-width: 426px) {
-            width: 35px;
-            height: 35px;
-            font-size: 20px;
-        }
-    }
-
-    .ModalImage {
-        object-fit: contain;
-        max-height: 80vh;
-        max-width: 80vw;
-        border-radius: 5px;
-    }
+.works { background: var(--tint); }
+.work-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.work-card { min-width: 0; overflow: hidden; background: var(--paper); border-radius: 12px; border: 1px solid #d3dfd7; }
+.comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 3px;
+  figure { margin: 0; position: relative; min-width: 0; }
+  img { width: 100%; height: auto; aspect-ratio: 1 / 1.08; object-fit: cover; }
+  figcaption { position: absolute; left: 12px; top: 12px; padding: 5px 11px; border-radius: 5px; font-size: 11px; font-weight: 600; background: var(--paper); color: var(--ink); }
+  figcaption.after { background: var(--teal); color: white; }
+}
+.comparison-large { gap: 12px;
+  img { aspect-ratio: auto; max-height: 65dvh; object-fit: contain; background: #e4e9e5; }
+}
+.work-info { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 22px;
+  p { font-size: 10px; letter-spacing: .12em; color: var(--muted); margin-bottom: 4px; }
+  h3 { font-size: 17px; font-weight: 550; letter-spacing: -.025em; }
+}
+.work-expand { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 8px 10px; border: 1px solid var(--line); color: var(--teal); border-radius: 6px; background: transparent; font-size: 12px;
+  &:hover { background: var(--tint); }
+  .icon { width: 16px; height: 16px; }
+}
+.results-note { font-size: 12px; color: var(--muted); margin-top: 24px; text-align: center; }
+@media (max-width: 700px) {
+  .work-grid { grid-template-columns: 1fr; gap: 20px; }
+  .work-info { padding: 18px 14px; }
+  .work-info h3 { font-size: 16px; }
+  .comparison-large { grid-template-columns: 1fr; img { max-height: 50dvh; } }
 }

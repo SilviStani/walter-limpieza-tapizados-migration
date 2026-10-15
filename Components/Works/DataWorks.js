@@ -1,18 +1,16 @@
-let numId = 0;
 export const DataWorks = [
-    {
-        id: numId++,
-        img: "/delantera-antes.jpg",
-        title: "Antes",
-    },
-    {
-        id: numId++,
-        img: "/delantera-despues.jpg",
-        title: "Después",
-    },
-    {
-        id: numId++,
-        img: "/colchon.jpg",
-        title: "Colchón: Antes y Después",
-    },
-]
+  {
+    id: "sillon",
+    title: "Sillón de tres plazas",
+    category: "HOGAR",
+    before: "/sillon3plazas-antes.jpg",
+    after: "/sillon3plazas-rayado.jpg",
+  },
+  {
+    id: "auto",
+    title: "Interior de vehículo",
+    category: "AUTOMOTOR",
+    before: "/delantera-antes.jpg",
+    after: "/delantera-despues.jpg",
+  },
+];

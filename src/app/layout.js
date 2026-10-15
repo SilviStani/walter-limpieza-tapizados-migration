@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Walter Limpieza de Tapizados",
-  description: "Servicio profesional de limpieza de tapizados a domicilio en Santa Fé y alrededores. Cuidamos tus muebles a conciencia.",
+  description: "Limpieza profesional de sillones, colchones y tapizados a domicilio en Santa Fe y alrededores. Consultá tu presupuesto por WhatsApp.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="es-AR">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>

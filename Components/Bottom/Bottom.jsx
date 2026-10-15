@@ -14,10 +14,10 @@ export const Bottom = () => {
             <p>© {currentYear} Walter Tapizados| Todos los derechos reservados.</p>
             <p>Desarrollado por
                 <a
-                    href="https://www.linkedin.com/in/silvina-staniszewski-developer/"
+                    href="https://silvina-portfolio.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer">
-                    {" "}Silvina_Dev {" "}
+                    {" "}silvina_dev {" "}
                 </a>
                 <Image
                     src="/click.png"
