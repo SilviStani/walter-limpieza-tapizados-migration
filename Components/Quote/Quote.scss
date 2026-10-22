@@ -35,6 +35,13 @@
 .quote-photo-note { display: flex; align-items: center; gap: 10px; margin-block: 20px; color: var(--muted); font-size: 12px; }
 .quote-submit { width: 100%; }
 .quote-send-note { text-align: center; color: var(--muted); font-size: 11px; margin-top: 12px; }
+.quote-copy { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line);
+  > p { color: var(--muted); font-size: 12px; }
+  > .button { margin-top: 12px; }
+  > .button:disabled { cursor: wait; opacity: .65; }
+  .quote-copy-status:not(:empty) { margin-top: 12px; color: var(--teal-dark); }
+  .quote-field { margin-top: 12px; }
+}
 @media (max-width: 1000px) {
   .quote-layout { gap: 32px; grid-template-columns: .8fr 1.2fr; }
   .quote-form { padding: 24px; }

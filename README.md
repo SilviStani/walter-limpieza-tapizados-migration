@@ -14,10 +14,30 @@ node scripts/generate-social-image.mjs
 
 Los metadatos apuntan al dominio público `https://walter-limpieza-tapizados.digital/`.
 Si cambia el dominio, configurá `NEXT_PUBLIC_SITE_URL` con la nueva URL completa
-antes de compilar, o actualizá el valor predeterminado en `src/app/layout.js`.
+antes de compilar, o actualizá el valor predeterminado en `lib/site.js`.
 
 La vista previa en WhatsApp requiere un despliegue público accesible: no puede
 leer la web que se ejecuta solamente en tu computadora.
+
+## SEO local
+
+El título de la página es `Limpieza de tapizados en Santa Fe | Walter`.
+La URL canónica, los metadatos sociales y las rutas de rastreo comparten el
+dominio definido en `lib/site.js` mediante `NEXT_PUBLIC_SITE_URL`. Configurá
+la URL pública del dominio, con `https://`; se normaliza a su raíz con barra final.
+
+- `src/app/sitemap.js` genera `/sitemap.xml` con la página de inicio, la única
+  página pública de contenido. Las secciones con anclas no son páginas separadas.
+- `src/app/robots.js` genera `/robots.txt`, permite el rastreo del sitio e indica
+  la URL absoluta del sitemap.
+- `src/app/layout.js` define el título, la descripción y la URL canónica.
+
+Si cambia el dominio, configurá `NEXT_PUBLIC_SITE_URL` antes de volver a compilar
+y desplegar. Tras el despliegue, comprobá `/robots.txt` y `/sitemap.xml` en el
+dominio público. Podés enviar el sitemap a Google Search Console para facilitar
+su descubrimiento; esto no garantiza la indexación ni una posición en resultados.
+
+Referencia: [metadatos de Next.js](https://nextjs.org/docs/app/getting-started/metadata-and-og-images).
 
 ## Opiniones de clientes
 

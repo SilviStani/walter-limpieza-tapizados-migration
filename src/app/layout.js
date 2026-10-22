@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import { siteUrl } from "../../lib/site.js";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -11,13 +12,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
-  || "https://walter-limpieza-tapizados.digital";
-
 export const metadata = {
-  metadataBase: new URL(siteUrl),
-  title: "Walter Limpieza de Tapizados",
+  metadataBase: siteUrl,
+  title: "Limpieza de tapizados en Santa Fe | Walter",
   description: "Limpieza profesional de sillones, colchones y tapizados a domicilio en Santa Fe y alrededores. Consultá tu presupuesto por WhatsApp.",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     url: "/",

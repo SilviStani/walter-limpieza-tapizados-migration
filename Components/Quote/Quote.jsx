@@ -19,7 +19,24 @@ export default function Quote() {
   const [quantity, setQuantity] = useState("1");
   const [zone, setZone] = useState("");
   const [details, setDetails] = useState("");
+  const [copyFeedback, setCopyFeedback] = useState(null);
+  const [copying, setCopying] = useState(false);
   const zoneInput = useRef(null);
+  const message = quoteMessage({ service, quantity, zone, details });
+  const currentFeedback = copyFeedback?.message === message ? copyFeedback.status : null;
+
+  async function copyMessage() {
+    setCopyFeedback(null);
+    setCopying(true);
+    try {
+      await navigator.clipboard.writeText(message);
+      setCopyFeedback({ message, status: "copied" });
+    } catch {
+      setCopyFeedback({ message, status: "manual" });
+    } finally {
+      setCopying(false);
+    }
+  }
 
   function submitQuote(event) {
     event.preventDefault();
@@ -28,12 +45,11 @@ export default function Quote() {
       zoneInput.current.reportValidity();
       return;
     }
-    const message = quoteMessage({ service, quantity, zone, details });
+    if (event.nativeEvent.submitter?.value === "copy") {
+      copyMessage();
+      return;
+    }
     window.open(whatsappMessageUrl(message), "_blank", "noopener,noreferrer");
-    setService("");
-    setQuantity("1");
-    setZone("");
-    setDetails("");
   }
 
   return (
@@ -84,6 +100,22 @@ export default function Quote() {
           <div className="quote-photo-note"><Icon name="camera" /><p>Las fotos se adjuntan en WhatsApp, después de continuar.</p></div>
           <button className="button button-primary quote-submit" type="submit"><Icon name="chat" />Continuar en WhatsApp<Icon name="arrow" /></button>
           <p className="quote-send-note">Revisá el mensaje en WhatsApp y envialo cuando esté listo.</p>
+          <div className="quote-copy">
+            <p>¿No pudiste abrir WhatsApp? Copiá el mensaje y pegalo en el chat con Walter.</p>
+            <button className="button button-secondary quote-submit" type="submit" name="action" value="copy" disabled={copying}>
+              {copying ? "Copiando…" : "Copiar mensaje"}
+            </button>
+            <p className="quote-copy-status" role="status" aria-atomic="true">
+              {currentFeedback === "copied" && "Mensaje copiado. Ya podés pegarlo en WhatsApp."}
+              {currentFeedback === "manual" && "No pudimos copiarlo automáticamente. Seleccioná el mensaje de abajo y copialo."}
+            </p>
+            {currentFeedback === "manual" && (
+              <div className="quote-field">
+                <label htmlFor="quote-message">Mensaje para copiar</label>
+                <textarea id="quote-message" readOnly rows={7} value={message} onFocus={(event) => event.target.select()} />
+              </div>
+            )}
+          </div>
         </form>
       </div>
     </section>
