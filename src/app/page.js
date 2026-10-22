@@ -10,6 +10,7 @@ import Icon from "../../Components/UI/Icon";
 import Quote from "../../Components/Quote/Quote";
 import Coverage from "../../Components/Coverage/Coverage";
 import FAQ from "../../Components/FAQ/FAQ";
+import Reviews from "../../Components/Reviews/Reviews";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <Services />
         <Works />
+        <Reviews />
         <Process />
         <Coverage />
         <Quote />

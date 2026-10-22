@@ -9,6 +9,7 @@ import "./Navbar.scss";
 const links = [
   ["Servicios", "#servicios"],
   ["Resultados", "#resultados"],
+  ["Opiniones", "#opiniones"],
   ["Cómo trabajamos", "#trabajamos"],
   ["Zonas", "#zonas"],
 ];

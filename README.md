@@ -19,7 +19,19 @@ antes de compilar, o actualizá el valor predeterminado en `src/app/layout.js`.
 La vista previa en WhatsApp requiere un despliegue público accesible: no puede
 leer la web que se ejecuta solamente en tu computadora.
 
-## Getting Started
+## Opiniones de clientes
+
+La sección `Opiniones` muestra una selección fija de tres reseñas reales de
+[Google Maps](https://maps.app.goo.gl/1nFcRFraTuuooot56), consultadas el 22 de octubre
+de 2026. No utiliza API, claves ni servicios de terceros para cargar las reseñas.
+
+Los textos originales, autores, fechas, puntuaciones y enlaces están en
+`Components/Reviews/reviews.json`. Para actualizar la selección, verificá cada
+reseña en Google Maps y editá ese archivo. Actualizá también `rating`, `reviewCount`
+y `checkedAt` al volver a consultar la puntuación global. Los cambios se reflejan
+al volver a compilar y desplegar la web; no hay sincronización automática.
+
+## Desarrollo local
 
 First, run the development server:
 

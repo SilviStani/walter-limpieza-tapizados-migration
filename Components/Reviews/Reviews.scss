@@ -1,0 +1,33 @@
+.reviews { background: var(--paper); }
+.reviews-summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
+  margin-bottom: 28px; padding: 24px 28px; border: 1px solid var(--line); border-radius: 12px;
+  background: var(--surface);
+}
+.reviews-score {
+  display: flex; align-items: center; gap: 20px;
+  > strong { font-size: 46px; font-weight: 550; letter-spacing: -.05em; line-height: 1.2; white-space: nowrap; }
+  > strong span { font-size: 18px; font-weight: 400; color: var(--muted); letter-spacing: 0; }
+  p { color: var(--muted); font-size: 13px; margin-top: 5px; }
+}
+.reviews-source { color: var(--ink); font-weight: 600; }
+.review-stars { display: inline-flex; align-items: center; gap: 3px; color: #a66516; vertical-align: middle; }
+.reviews-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.review-card {
+  min-width: 0; display: flex; flex-direction: column; align-items: flex-start;
+  margin: 0; padding: 28px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+  blockquote { margin: 22px 0 28px; font-size: 16px; line-height: 1.8; overflow-wrap: anywhere; }
+  figcaption { display: flex; align-items: center; gap: 12px; margin-top: auto; }
+  time { display: block; margin-top: 3px; color: var(--muted); font-size: 11px; }
+}
+.review-avatar { display: grid; place-items: center; flex-shrink: 0; width: 42px; height: 42px; border-radius: 50%; background: var(--tint); color: var(--teal); font-size: 13px; font-weight: 650; text-transform: uppercase; }
+.review-author { font-size: 13px; font-weight: 650; overflow-wrap: anywhere; &:hover { text-decoration: underline; text-underline-offset: 4px; } }
+.review-source-link { margin-top: 16px; font-size: 12px; .icon { width: 16px; height: 16px; } }
+.reviews-note { margin-top: 22px; color: var(--muted); font-size: 12px; text-align: center; }
+@media (max-width: 1000px) { .review-card { padding: 22px; } }
+@media (max-width: 700px) {
+  .reviews-summary { align-items: stretch; flex-direction: column; padding: 22px; }
+  .reviews-score { gap: 16px; > strong { font-size: 40px; } }
+  .reviews-grid { grid-template-columns: 1fr; gap: 16px; }
+  .review-card blockquote { margin-block: 18px 24px; }
+}
