@@ -37,14 +37,32 @@ export default function Works() {
                 <div><p>{work.category}</p><h3>{work.title}</h3></div>
                 <button type="button" onClick={() => setSelected(work)} className="work-expand" aria-label={`Ampliar antes y después: ${work.title.toLowerCase()}`}><Icon name="expand" /><span>Ampliar</span></button>
               </div>
+              <WorkDetails work={work} />
             </article>
           ))}
         </div>
         <p className="results-note">Cada tapizado es diferente. Evaluamos su estado y el tipo de manchas antes de trabajar.</p>
         <Dialog open={!!selected} onClose={() => setSelected(null)} title={selected?.title || "Detalle del trabajo"}>
-          {selected && <Comparison work={selected} large />}
+          {selected && <><Comparison work={selected} large /><WorkDetails work={selected} /></>}
         </Dialog>
       </div>
     </section>
+  );
+}
+
+function WorkDetails({ work }) {
+  const details = [
+    ["Material", work.material],
+    ["Problema", work.problem],
+    ["Tratamiento realizado", work.treatment],
+  ].filter(([, value]) => value);
+
+  if (!details.length) return null;
+  return (
+    <dl className="work-details">
+      {details.map(([label, value]) => (
+        <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
+      ))}
+    </dl>
   );
 }

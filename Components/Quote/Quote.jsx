@@ -2,17 +2,9 @@
 
 import { useRef, useState } from "react";
 import { quoteMessage, whatsappMessageUrl } from "../../lib/contact";
+import { services } from "../../lib/services";
 import Icon from "../UI/Icon";
 import "./Quote.scss";
-
-const services = [
-  { name: "Sillones y sofás", icon: "sofa" },
-  { name: "Colchones", icon: "bed" },
-  { name: "Sillas y tapizados", icon: "chair" },
-  { name: "Interior de autos", icon: "car" },
-  { name: "Alfombras", icon: "rug" },
-  { name: "Otro tapizado", icon: "plus" },
-];
 
 export default function Quote() {
   const [service, setService] = useState("");
@@ -72,9 +64,9 @@ export default function Quote() {
             <legend>¿Qué necesitás limpiar?</legend>
             <div className="quote-service-options">
               {services.map((item) => (
-                <label className="quote-service-option" key={item.name}>
-                  <input type="radio" name="service" value={item.name} checked={service === item.name} onChange={(event) => setService(event.target.value)} required />
-                  <span><Icon name={item.icon} />{item.name}<Icon name="check" className="selection-check" /></span>
+                <label className="quote-service-option" key={item.id}>
+                  <input type="radio" name="service" value={item.title} checked={service === item.title} onChange={(event) => setService(event.target.value)} required />
+                  <span><Icon name={item.icon} />{item.title}<Icon name="check" className="selection-check" /></span>
                 </label>
               ))}
             </div>

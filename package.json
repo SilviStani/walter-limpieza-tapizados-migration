@@ -2,11 +2,16 @@
   "name": "walter-tapizados",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "node --test tests/unit/*.test.mjs",
+    "test:e2e": "playwright test",
+    "check": "npm run lint && npm run test:unit && npm run build && npm run test:e2e"
   },
   "dependencies": {
     "next": "^16.4.1",
@@ -15,6 +20,7 @@
     "sass": "^1.97.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.64.1",
     "eslint": "^9",
     "eslint-config-next": "^16.4.1"
   }

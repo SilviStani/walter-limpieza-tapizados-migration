@@ -1,0 +1,1441 @@
+{
+  "measuredAt": "2026-10-23T12:59:34.973Z",
+  "site": "http://127.0.0.1:4175",
+  "browser": "Chrome/156.0.8078.48",
+  "conditions": "Local production build; isolated browser contexts; browser cache disabled; no network or CPU throttling. Mobile viewport and DPR emulation, not a physical phone. encodedBodySize is payload bytes; transferSize includes browser-estimated HTTP overhead. Timing is not a field performance measurement.",
+  "originalHeroBytes": 1980465,
+  "results": [
+    {
+      "viewport": {
+        "width": 360,
+        "height": 800,
+        "deviceScaleFactor": 2,
+        "mobile": true
+      },
+      "hero": {
+        "currentSrc": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=640&q=75",
+        "sizes": "(max-width: 700px) calc(100vw - 40px), (max-width: 1200px) 48vw, 570px",
+        "renderedWidth": 320,
+        "renderedHeight": 330
+      },
+      "bodyFont": "Geist, \"Geist Fallback\", Arial, sans-serif",
+      "fonts": [
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "loaded"
+        },
+        {
+          "family": "Geist Fallback",
+          "status": "loaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono Fallback",
+          "status": "unloaded"
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+          "initiatorType": "link",
+          "transferSize": 23408,
+          "encodedBodySize": 23108,
+          "decodedBodySize": 23108
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+          "initiatorType": "link",
+          "transferSize": 29588,
+          "encodedBodySize": 29288,
+          "decodedBodySize": 29288
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=640&q=75",
+          "initiatorType": "link",
+          "transferSize": 20998,
+          "encodedBodySize": 20698,
+          "decodedBodySize": 20698
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/3zuptrgb1njv8.css",
+          "initiatorType": "link",
+          "transferSize": 2301,
+          "encodedBodySize": 2001,
+          "decodedBodySize": 6141
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0jiol80nmvdz1.css",
+          "initiatorType": "link",
+          "transferSize": 4453,
+          "encodedBodySize": 4153,
+          "decodedBodySize": 19150
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/31qp8jfkw0x2h.js",
+          "initiatorType": "link",
+          "transferSize": 7711,
+          "encodedBodySize": 7411,
+          "decodedBodySize": 22142
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/1tty6l8tgntgq.js",
+          "initiatorType": "script",
+          "transferSize": 48697,
+          "encodedBodySize": 48397,
+          "decodedBodySize": 180399
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/209aaqjv6z8gh.js",
+          "initiatorType": "script",
+          "transferSize": 72199,
+          "encodedBodySize": 71899,
+          "decodedBodySize": 229597
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "initiatorType": "script",
+          "transferSize": 4240,
+          "encodedBodySize": 3940,
+          "decodedBodySize": 10030
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0umf92h1sb77c.js",
+          "initiatorType": "script",
+          "transferSize": 3814,
+          "encodedBodySize": 3514,
+          "decodedBodySize": 13822
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/063nykxcpsakw.js",
+          "initiatorType": "script",
+          "transferSize": 11576,
+          "encodedBodySize": 11276,
+          "decodedBodySize": 32097
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2FLogo-blanco.png&w=128&q=75",
+          "initiatorType": "img",
+          "transferSize": 2438,
+          "encodedBodySize": 2138,
+          "decodedBodySize": 2138
+        },
+        {
+          "url": "http://127.0.0.1:4175/favicon.ico?favicon.2pnuo6apss6sy.ico",
+          "initiatorType": "other",
+          "transferSize": 37218,
+          "encodedBodySize": 36918,
+          "decodedBodySize": 36918
+        }
+      ],
+      "videoElements": 0,
+      "horizontalOverflow": false,
+      "initialRequests": [
+        {
+          "url": "http://127.0.0.1:4175/",
+          "type": "Document",
+          "mimeType": "text/html",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 16748
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/3zuptrgb1njv8.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 2383
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0jiol80nmvdz1.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4536
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 23408
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 29588
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/31qp8jfkw0x2h.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 7808
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4336
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0umf92h1sb77c.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 3910
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/063nykxcpsakw.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11673
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/1tty6l8tgntgq.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 48826
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/209aaqjv6z8gh.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 72345
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=640&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 21128
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2FLogo-blanco.png&w=128&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 2566
+        },
+        {
+          "url": "http://127.0.0.1:4175/favicon.ico?favicon.2pnuo6apss6sy.ico",
+          "type": "Other",
+          "mimeType": "image/x-icon",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 37249
+        }
+      ],
+      "requestsAfterScroll": [
+        {
+          "url": "http://127.0.0.1:4175/",
+          "type": "Document",
+          "mimeType": "text/html",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 16748
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/3zuptrgb1njv8.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 2383
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0jiol80nmvdz1.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4536
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 23408
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 29588
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/31qp8jfkw0x2h.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 7808
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4336
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0umf92h1sb77c.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 3910
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/063nykxcpsakw.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11673
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/1tty6l8tgntgq.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 48826
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/209aaqjv6z8gh.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 72345
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=640&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 21128
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2FLogo-blanco.png&w=128&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 2566
+        },
+        {
+          "url": "http://127.0.0.1:4175/favicon.ico?favicon.2pnuo6apss6sy.ico",
+          "type": "Other",
+          "mimeType": "image/x-icon",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 37249
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fsillon3plazas-rayado.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 12332
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fsillon3plazas-antes.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11335
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fdelantera-antes.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 15193
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fdelantera-despues.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11721
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 3,
+        "mobile": true
+      },
+      "hero": {
+        "currentSrc": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=1080&q=75",
+        "sizes": "(max-width: 700px) calc(100vw - 40px), (max-width: 1200px) 48vw, 570px",
+        "renderedWidth": 350,
+        "renderedHeight": 330
+      },
+      "bodyFont": "Geist, \"Geist Fallback\", Arial, sans-serif",
+      "fonts": [
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "loaded"
+        },
+        {
+          "family": "Geist Fallback",
+          "status": "loaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono Fallback",
+          "status": "unloaded"
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+          "initiatorType": "link",
+          "transferSize": 23408,
+          "encodedBodySize": 23108,
+          "decodedBodySize": 23108
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+          "initiatorType": "link",
+          "transferSize": 29588,
+          "encodedBodySize": 29288,
+          "decodedBodySize": 29288
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=1080&q=75",
+          "initiatorType": "link",
+          "transferSize": 44774,
+          "encodedBodySize": 44474,
+          "decodedBodySize": 44474
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/3zuptrgb1njv8.css",
+          "initiatorType": "link",
+          "transferSize": 2301,
+          "encodedBodySize": 2001,
+          "decodedBodySize": 6141
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0jiol80nmvdz1.css",
+          "initiatorType": "link",
+          "transferSize": 4453,
+          "encodedBodySize": 4153,
+          "decodedBodySize": 19150
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/31qp8jfkw0x2h.js",
+          "initiatorType": "link",
+          "transferSize": 7711,
+          "encodedBodySize": 7411,
+          "decodedBodySize": 22142
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/1tty6l8tgntgq.js",
+          "initiatorType": "script",
+          "transferSize": 48697,
+          "encodedBodySize": 48397,
+          "decodedBodySize": 180399
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/209aaqjv6z8gh.js",
+          "initiatorType": "script",
+          "transferSize": 72199,
+          "encodedBodySize": 71899,
+          "decodedBodySize": 229597
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "initiatorType": "script",
+          "transferSize": 4240,
+          "encodedBodySize": 3940,
+          "decodedBodySize": 10030
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0umf92h1sb77c.js",
+          "initiatorType": "script",
+          "transferSize": 3814,
+          "encodedBodySize": 3514,
+          "decodedBodySize": 13822
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/063nykxcpsakw.js",
+          "initiatorType": "script",
+          "transferSize": 11576,
+          "encodedBodySize": 11276,
+          "decodedBodySize": 32097
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2FLogo-blanco.png&w=128&q=75",
+          "initiatorType": "img",
+          "transferSize": 2438,
+          "encodedBodySize": 2138,
+          "decodedBodySize": 2138
+        },
+        {
+          "url": "http://127.0.0.1:4175/favicon.ico?favicon.2pnuo6apss6sy.ico",
+          "initiatorType": "other",
+          "transferSize": 37218,
+          "encodedBodySize": 36918,
+          "decodedBodySize": 36918
+        }
+      ],
+      "videoElements": 0,
+      "horizontalOverflow": false,
+      "initialRequests": [
+        {
+          "url": "http://127.0.0.1:4175/",
+          "type": "Document",
+          "mimeType": "text/html",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 16748
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/3zuptrgb1njv8.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 2383
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0jiol80nmvdz1.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4536
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 23408
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 29588
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/31qp8jfkw0x2h.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 7808
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4336
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0umf92h1sb77c.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 3910
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/063nykxcpsakw.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11673
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/1tty6l8tgntgq.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 48826
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/209aaqjv6z8gh.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 72345
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2FLogo-blanco.png&w=128&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 2564
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=1080&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 44903
+        },
+        {
+          "url": "http://127.0.0.1:4175/favicon.ico?favicon.2pnuo6apss6sy.ico",
+          "type": "Other",
+          "mimeType": "image/x-icon",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 37249
+        }
+      ],
+      "requestsAfterScroll": [
+        {
+          "url": "http://127.0.0.1:4175/",
+          "type": "Document",
+          "mimeType": "text/html",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 16748
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/3zuptrgb1njv8.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 2383
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0jiol80nmvdz1.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4536
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 23408
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 29588
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/31qp8jfkw0x2h.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 7808
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4336
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0umf92h1sb77c.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 3910
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/063nykxcpsakw.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11673
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/1tty6l8tgntgq.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 48826
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/209aaqjv6z8gh.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 72345
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2FLogo-blanco.png&w=128&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 2564
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=1080&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 44903
+        },
+        {
+          "url": "http://127.0.0.1:4175/favicon.ico?favicon.2pnuo6apss6sy.ico",
+          "type": "Other",
+          "mimeType": "image/x-icon",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 37249
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fsillon3plazas-antes.jpg&w=640&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 24267
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fdelantera-antes.jpg&w=640&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 32129
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fsillon3plazas-rayado.jpg&w=640&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 26326
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fdelantera-despues.jpg&w=640&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 30895
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "hero": {
+        "currentSrc": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=640&q=75",
+        "sizes": "(max-width: 700px) calc(100vw - 40px), (max-width: 1200px) 48vw, 570px",
+        "renderedWidth": 570,
+        "renderedHeight": 480
+      },
+      "bodyFont": "Geist, \"Geist Fallback\", Arial, sans-serif",
+      "fonts": [
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist",
+          "status": "loaded"
+        },
+        {
+          "family": "Geist Fallback",
+          "status": "loaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono",
+          "status": "unloaded"
+        },
+        {
+          "family": "Geist Mono Fallback",
+          "status": "unloaded"
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+          "initiatorType": "link",
+          "transferSize": 23408,
+          "encodedBodySize": 23108,
+          "decodedBodySize": 23108
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+          "initiatorType": "link",
+          "transferSize": 29588,
+          "encodedBodySize": 29288,
+          "decodedBodySize": 29288
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=640&q=75",
+          "initiatorType": "link",
+          "transferSize": 20998,
+          "encodedBodySize": 20698,
+          "decodedBodySize": 20698
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/3zuptrgb1njv8.css",
+          "initiatorType": "link",
+          "transferSize": 2301,
+          "encodedBodySize": 2001,
+          "decodedBodySize": 6141
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0jiol80nmvdz1.css",
+          "initiatorType": "link",
+          "transferSize": 4453,
+          "encodedBodySize": 4153,
+          "decodedBodySize": 19150
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/31qp8jfkw0x2h.js",
+          "initiatorType": "link",
+          "transferSize": 7711,
+          "encodedBodySize": 7411,
+          "decodedBodySize": 22142
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/1tty6l8tgntgq.js",
+          "initiatorType": "script",
+          "transferSize": 48697,
+          "encodedBodySize": 48397,
+          "decodedBodySize": 180399
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/209aaqjv6z8gh.js",
+          "initiatorType": "script",
+          "transferSize": 72199,
+          "encodedBodySize": 71899,
+          "decodedBodySize": 229597
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "initiatorType": "script",
+          "transferSize": 4240,
+          "encodedBodySize": 3940,
+          "decodedBodySize": 10030
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0umf92h1sb77c.js",
+          "initiatorType": "script",
+          "transferSize": 3814,
+          "encodedBodySize": 3514,
+          "decodedBodySize": 13822
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/063nykxcpsakw.js",
+          "initiatorType": "script",
+          "transferSize": 11576,
+          "encodedBodySize": 11276,
+          "decodedBodySize": 32097
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2FLogo-blanco.png&w=64&q=75",
+          "initiatorType": "img",
+          "transferSize": 1184,
+          "encodedBodySize": 884,
+          "decodedBodySize": 884
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fsillon3plazas-antes.jpg&w=384&q=75",
+          "initiatorType": "img",
+          "transferSize": 11198,
+          "encodedBodySize": 10898,
+          "decodedBodySize": 10898
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fsillon3plazas-rayado.jpg&w=384&q=75",
+          "initiatorType": "img",
+          "transferSize": 12194,
+          "encodedBodySize": 11894,
+          "decodedBodySize": 11894
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fdelantera-antes.jpg&w=384&q=75",
+          "initiatorType": "img",
+          "transferSize": 15060,
+          "encodedBodySize": 14760,
+          "decodedBodySize": 14760
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fdelantera-despues.jpg&w=384&q=75",
+          "initiatorType": "img",
+          "transferSize": 11586,
+          "encodedBodySize": 11286,
+          "decodedBodySize": 11286
+        },
+        {
+          "url": "http://127.0.0.1:4175/favicon.ico?favicon.2pnuo6apss6sy.ico",
+          "initiatorType": "other",
+          "transferSize": 37218,
+          "encodedBodySize": 36918,
+          "decodedBodySize": 36918
+        }
+      ],
+      "videoElements": 0,
+      "horizontalOverflow": false,
+      "initialRequests": [
+        {
+          "url": "http://127.0.0.1:4175/",
+          "type": "Document",
+          "mimeType": "text/html",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 16748
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/3zuptrgb1njv8.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 2383
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0jiol80nmvdz1.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4536
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=640&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 21126
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 23408
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 29588
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/31qp8jfkw0x2h.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 7808
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4336
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0umf92h1sb77c.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 3910
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/063nykxcpsakw.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11673
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/1tty6l8tgntgq.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 48826
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/209aaqjv6z8gh.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 72345
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2FLogo-blanco.png&w=64&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 1309
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fsillon3plazas-antes.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11333
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fsillon3plazas-rayado.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 12330
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fdelantera-antes.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 15191
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fdelantera-despues.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11719
+        },
+        {
+          "url": "http://127.0.0.1:4175/favicon.ico?favicon.2pnuo6apss6sy.ico",
+          "type": "Other",
+          "mimeType": "image/x-icon",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 37249
+        }
+      ],
+      "requestsAfterScroll": [
+        {
+          "url": "http://127.0.0.1:4175/",
+          "type": "Document",
+          "mimeType": "text/html",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 16748
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/3zuptrgb1njv8.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 2383
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0jiol80nmvdz1.css",
+          "type": "Stylesheet",
+          "mimeType": "text/css",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4536
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fwal_limpieza.png&w=640&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 21126
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 23408
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2",
+          "type": "Font",
+          "mimeType": "font/woff2",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 29588
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/31qp8jfkw0x2h.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 7808
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 4336
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/0umf92h1sb77c.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 3910
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/063nykxcpsakw.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11673
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/1tty6l8tgntgq.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 48826
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/static/chunks/209aaqjv6z8gh.js",
+          "type": "Script",
+          "mimeType": "application/javascript",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 72345
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2FLogo-blanco.png&w=64&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 1309
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fsillon3plazas-antes.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11333
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fsillon3plazas-rayado.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 12330
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fdelantera-antes.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 15191
+        },
+        {
+          "url": "http://127.0.0.1:4175/_next/image?url=%2Fdelantera-despues.jpg&w=384&q=75",
+          "type": "Image",
+          "mimeType": "image/webp",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 11719
+        },
+        {
+          "url": "http://127.0.0.1:4175/favicon.ico?favicon.2pnuo6apss6sy.ico",
+          "type": "Other",
+          "mimeType": "image/x-icon",
+          "status": 200,
+          "fromDiskCache": false,
+          "fromServiceWorker": false,
+          "encodedDataLength": 37249
+        }
+      ]
+    }
+  ]
+}

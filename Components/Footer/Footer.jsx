@@ -1,4 +1,4 @@
-import { business } from "../../lib/contact";
+import { business, phoneUrl } from "../../lib/contact";
 import Icon from "../UI/Icon";
 import WhatsAppLink from "../UI/WhatsAppLink";
 import "./Footer.scss";
@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="contact-details">
             <div><Icon name="pin" /><p><strong>Vamos a tu domicilio</strong><span>{business.area}</span><small>Consultanos por la cobertura en tu zona.</small></p></div>
             <div><Icon name="clock" /><p><strong>Horario de atención</strong><span>{business.hours}</span></p></div>
-            <div><Icon name="chat" /><p><strong>Atención personalizada</strong><a href="tel:+5493425972698">{business.phone}</a></p></div>
+            <div><Icon name="chat" /><p><strong>Atención personalizada</strong><a href={phoneUrl()}>{business.phone}</a></p></div>
           </div>
         </div>
         <div className="footer-row">

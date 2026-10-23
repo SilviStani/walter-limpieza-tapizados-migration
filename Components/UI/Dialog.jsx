@@ -23,8 +23,27 @@ export default function Dialog({ open, onClose, title, children, className = "" 
     };
   }, [open]);
 
+  function containTabFocus(event) {
+    if (event.key !== "Tab") return;
+    const element = event.currentTarget;
+    const controls = [...element.querySelectorAll(
+      'a[href], button, input, select, textarea, summary, [tabindex], [contenteditable="true"]',
+    )].filter((control) => control.tabIndex >= 0 && !control.matches(":disabled")
+      && !control.closest("[inert]") && control.getClientRects().length > 0
+      && getComputedStyle(control).visibility !== "hidden");
+    const first = controls[0];
+    const last = controls[controls.length - 1];
+    const active = document.activeElement;
+    if (active === element || !element.contains(active)
+      || (event.shiftKey ? active === first : active === last)) {
+      event.preventDefault();
+      (event.shiftKey ? last : first)?.focus();
+    }
+  }
+
   return (
     <dialog ref={dialog} className={`site-dialog ${className}`} aria-label={title}
+      onKeyDown={containTabFocus}
       onCancel={(event) => { event.preventDefault(); onClose(); }}
       onClick={(event) => {
         if (event.target !== event.currentTarget) return;

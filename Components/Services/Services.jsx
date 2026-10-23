@@ -1,13 +1,7 @@
 import Icon from "../UI/Icon";
 import { whatsappUrl } from "../../lib/contact";
+import { featuredServices } from "../../lib/services";
 import "./Services.scss";
-
-const services = [
-  { title: "Sillones y sofás", icon: "sofa", query: "sillones y sofás", text: "Para ese lugar de la casa que usás todos los días." },
-  { title: "Colchones", icon: "bed", query: "colchones", text: "Limpieza profunda para tu espacio de descanso." },
-  { title: "Sillas y tapizados", icon: "chair", query: "sillas y tapizados", text: "Cuidamos los detalles de tus muebles tapizados." },
-  { title: "Interior de autos", icon: "car", query: "tapizados de auto", text: "Renová la limpieza de los asientos de tu vehículo." },
-];
 
 export default function Services() {
   return (
@@ -18,8 +12,8 @@ export default function Services() {
           <p>Contanos qué necesitás limpiar. Evaluamos el material y su estado para recomendarte el tratamiento.</p>
         </div>
         <div className="service-grid">
-          {services.map((service, index) => (
-            <a className="service-card" href={whatsappUrl(service.query)} target="_blank" rel="noopener noreferrer" key={service.icon} aria-label={`Consultar por ${service.title.toLowerCase()} en WhatsApp`}>
+          {featuredServices.map((service, index) => (
+            <a className="service-card" href={whatsappUrl(service.query)} target="_blank" rel="noopener noreferrer" key={service.id} aria-label={`Consultar por ${service.title.toLowerCase()} en WhatsApp`}>
               <div className="service-top"><Icon name={service.icon} /><span>0{index + 1}</span></div>
               <h3>{service.title}</h3>
               <p>{service.text}</p>

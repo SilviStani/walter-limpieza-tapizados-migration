@@ -19,9 +19,15 @@
   .icon { width: 16px; height: 16px; }
 }
 .results-note { font-size: 12px; color: var(--muted); margin-top: 24px; text-align: center; }
+.work-details { display: grid; gap: 12px; margin: 0 22px 22px; padding-top: 18px; border-top: 1px solid var(--line);
+  dt { color: var(--ink); font-size: 12px; font-weight: 600; }
+  dd { margin: 3px 0 0; color: var(--muted); font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+}
+.site-dialog .work-details { margin: 24px 0 0; }
 @media (max-width: 700px) {
   .work-grid { grid-template-columns: 1fr; gap: 20px; }
   .work-info { padding: 18px 14px; }
   .work-info h3 { font-size: 16px; }
+  .work-details { margin-inline: 14px; }
   .comparison-large { grid-template-columns: 1fr; img { max-height: 50dvh; } }
 }
